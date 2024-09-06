@@ -5,19 +5,21 @@ body {
 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+
 }
 
 .main {
     padding: 11vh 5vw;
 }
 
-/*Classe genérica 3 linhas*/
+/*Generic class 3 lines*/
 .outer-container {
     display: flex;
     position: relative;
 }
 
-/*Classe quadrados laranjas*/
+/*Orange squares class*/
 .div-container {
     display: flex;
     border-color: black;
@@ -30,7 +32,7 @@ p {
     padding: 20px;
 }
 
-/*Classe genérica vermelhos*/
+/*RED  squares class*/
 .inner-container {
     background-color: #9D0208;
     border-radius: 8px;
@@ -38,6 +40,7 @@ p {
     display: flex;
     width: 10vh;
     height: 10vh;
+    justify-content: center;
 }
 
 /*Orange Block 1*/
@@ -69,14 +72,10 @@ p {
     display: inline-flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 23vw;
-    height: 22vh;
 }
 
-.div-container-last {
-    align-content: end;
-    width: 15vw;
-    height: 22vh;
+.container-4-cardlast {
+    align-self: flex-end;
 }
 
 /*Orange Block 5*/
@@ -102,5 +101,5 @@ p {
 }
 
 .container-6-cardmiddle {
-    width: 15vh;
+    width: 20vh;
 }
