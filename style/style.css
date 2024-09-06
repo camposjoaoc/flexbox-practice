@@ -1,0 +1,106 @@
+body {
+    background-color: #370617;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 11vh 5vw;
+}
+
+/*Classe genérica 3 linhas*/
+.outer-container {
+    display: flex;
+    position: relative;
+}
+
+/*Classe quadrados laranjas*/
+.div-container {
+    display: flex;
+    border-color: black;
+    background-color: #F48C06;
+    border-radius: 8px;
+    position: relative;
+    width: 45vw;
+    height: 22vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*Classe genérica vermelhos*/
+.inner-container {
+    background-color: #9D0208;
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    width: 10vh;
+    height: 10vh;
+}
+
+/*Orange Block 1*/
+.div-container-1 {
+    align-items: flex-end;
+}
+
+/*Orange Block 2*/
+.div-container-2 {
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.container-2-cardfirst,
+.container-2-cardmiddle,
+.container-2-cardlast {
+    height: 18vh;
+}
+
+/*Orange Block 3*/
+.div-container-3 {
+    justify-content: end;
+    align-items: center;
+}
+
+/*Orange Block 4*/
+.div-container-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 23vw;
+    height: 22vh;
+}
+
+.div-container-last {
+    align-content: end;
+    width: 15vw;
+    height: 22vh;
+}
+
+/*Orange Block 5*/
+.div-container-5 {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-5-cardfirst,
+.container-5-cardlast {
+    height: 18vh;
+}
+
+.container-5-cardmiddle {
+    height: 9vh;
+}
+
+
+/*Orange Block 6*/
+.div-container-6 {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-6-cardmiddle {
+    width: 15vh;
+}
